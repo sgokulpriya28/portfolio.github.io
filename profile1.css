@@ -1,0 +1,81 @@
+body {
+    background: rgb(255, 139, 213);
+    color: rgb(250, 223, 247);
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 8px;
+    transition: background 0.5s ease-in-out;
+    font-family: sans-serif;
+}
+.p, .description {
+    padding-left: 60px;
+    padding-right:50px ;
+    font-family: sans-serif;
+}
+.profile-img {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ff3c9d;
+    box-shadow: 0 0 15px #fa439f, 0 0 30px #f6b9dc;
+    float: inline-end;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.profile-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #ba1266, 0 0 50px #fb90d6;
+}
+/* Section Titles */
+.main-content {
+    margin-top: 25px;
+    margin-left: 20px; 
+    margin-right: 15px;
+    color: rgb(227, 27, 150);
+    /* transition: transform 0.3s ease, color 0.3s ease; */
+}
+.main-content:hover {
+    display:flex;
+    transform: scale(0);
+}
+/* Icons */
+.Education, .about, .hobbies {
+    height: 40px;
+    width: 40px;
+}
+/* Highlighted Text */
+.highlight {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    color: #ff007f;
+}
+.highlight:hover {
+    transform: scale(1.1);
+    color: #a1c4fd;
+}
+/* Internship Main Card */
+.internship-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    /* animation: float 3s infinite ease-in-out; */
+}
+/* 🔄 Floating Animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+.internship{
+    width: 30px;
+    height: 30px;
+}
+/* Project Cards */
+.project-cards {
+    margin-top: 20px;
+}
+

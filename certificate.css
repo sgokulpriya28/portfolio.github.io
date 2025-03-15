@@ -1,0 +1,60 @@
+.section{
+    padding-left: 450px;
+    width: 555px;
+    height: 400px;
+    padding-top: 30px;
+}
+.section .header{
+    padding-bottom: 25px;
+    color: hwb(330 7% 27%);
+}
+.profile-img1{
+    border-radius: 10%;
+    object-fit: cover;
+    border: 3px solid #ff3c9d;
+    box-shadow: 0 0 400px #fa439f, 0 0 400px #f6b9dc;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius:10px ;
+    margin-bottom: 20px;
+}
+.profile-img1 .description{
+    padding-left: 15px;
+}
+.profile-img2{
+    
+    border-radius: 10%;
+    object-fit: cover;
+    border: 3px solid #ff3c9d;
+    box-shadow: 0 0 400px #fa439f, 0 0 400px #f6b9dc;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius:10px ;
+    margin-bottom: 20px;
+}
+.profile-img2 .description{
+    padding-left: 15px;
+}
+.profile-img3{
+    
+    border-radius: 10%;
+    object-fit: cover;
+    border: 3px solid #ff3c9d;
+    box-shadow: 0 0 400px #fa439f, 0 0 400px #f6b9dc;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius:10px ;
+    margin-bottom: 20px;
+}
+.profile-img3 .description{
+    padding-left: 15px;
+}
+.profile-img1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #ba1266, 0 0 50px #fb90d6;
+}
+.profile-img2:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #ba1266, 0 0 50px #fb90d6;
+}
+.profile-img3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #ba1266, 0 0 50px #fb90d6;
+}
